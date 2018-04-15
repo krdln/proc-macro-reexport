@@ -1,0 +1,9 @@
+[package]
+name = "definition"
+version = "0.1.0"
+authors = ["Michał Krasnoborski <mkrdln@gmail.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
