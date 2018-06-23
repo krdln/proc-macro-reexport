@@ -1,4 +1,4 @@
-#[feature(proc_macro)]
+#![feature(proc_macro, proc_macro_non_items)]
 
 // #[macro_use]
 extern crate reexport;
@@ -6,5 +6,5 @@ extern crate reexport;
 use reexport::foo;
 
 fn main() {
-    foo!()
+    foo!(println!("hello, world!"))
 }
